@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Purple",
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette":[
+        {"name":"Primary","color":"#a85bd7","slug":"primary"},
+        {"name":"Secondary Accent Text","color":"#000000","slug":"secondary-accent-text"},
+        {"name":"Secondary","color":"#F0E6EE","slug":"secondary"},
+        {"name":"Secondary One","color":"#a85bd7","slug":"secondary-one"},
+        {"name":"Tertiary","color":"#333333","slug":"tertiary"},
+        {"name":"Accent","color":"#EEEEEE","slug":"accent"},
+        {"name":"Accent Text","color":"#FFFFFE","slug":"accent-text"},
+        {"name":"Secondary Accent","color":"#E0E0E0","slug":"secondary-accent"},
+        {"name":"Hover","color":"#1B1E3F","slug":"hover"},
+        {"name":"Heading","color":"#000000","slug":"heading"},
+        {"name":"Secondary Two","color":"#F4ECF7","slug":"secondary-two"}
+      ]
+    }
+  }
+}

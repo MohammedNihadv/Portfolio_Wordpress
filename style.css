@@ -1,0 +1,673 @@
+/*
+Theme Name: Minimalistic Portfolio
+Theme URI: https://www.misbahwp.com/products/minimalistic-portfolio
+Author: misbahwp
+Author URI: https://www.misbahwp.com/
+Description: Minimalistic Portfolio is a clean and modern WordPress theme designed for creatives, freelancers, and agencies who want to showcase their work with clarity and style. Built with a minimal approach, it focuses on strong typography, spacious layouts, and smooth user experience to highlight your portfolio effectively. The theme includes well-structured sections such as a bold hero banner, services overview, featured projects, key features, testimonials, and a call-to-action section. It also supports portfolio showcases, team introductions, and blog integration for content sharing. With responsive design, fast loading performance, and easy customization options, you can quickly create a professional website without coding knowledge. Minimalistic Portfolio is perfect for designers, developers, photographers, and startups looking to build a strong online presence with a sleek and elegant layout.
+Version: 1.0.3
+Requires at least: 6.0
+Tested up to: 6.9
+Requires PHP: 5.6
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: minimalistic-portfolio
+Tags: flexible-header, style-variations, one-column, footer-widgets, custom-background, custom-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, blog, portfolio, photography
+Minimalistic Portfolio WordPress Theme, Copyright 2026 misbahwp
+Minimalistic Portfolio is distributed under the terms of the GNU General Public License v3
+*/
+
+a:focus {
+    outline: 2px solid;
+    outline-offset: 2px;
+}
+.taxonomy-category.wp-block-post-terms a:hover {
+    color: var(--wp--preset--color--primary);
+}
+.banner-box-column a:hover{
+    color: var(--wp--preset--color--primary);
+}
+.header-menu button.wp-block-navigation__responsive-container-open:focus{
+    color: var(--wp--preset--color--primary);
+}
+.wp-block-navigation__responsive-container-close:focus{
+   background-color: var(--wp--preset--color--secondary-one);
+}
+.product-content a:focus {
+    outline: 2px solid #000;
+}
+.home .main-header-top{
+    background: transparent !important;
+    position: absolute;
+    width: 100%;
+}
+.main-header-top{
+    background-color: var(--wp--preset--color--primary) !important;
+    position: relative;
+}
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+    background-color: #eee;
+    clip: auto !important;
+    clip-path: none;
+    color: #444;
+    display: block;
+    font-size: 1em;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 15px 23px 14px;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+.product-image{
+    position: relative;
+}
+.banner-image img {
+    width: 100% !important;
+    margin-bottom: -0px;
+    z-index: 2;
+    position: relative;
+}
+.product-image img,.product-image figure{
+    width: 100%;
+    height: 350px;
+}
+.solution-box i{
+    font-size: 40px;
+    color: var(--wp--preset--color--primary) !important;
+}
+.footer-contact-box p:hover{
+    color: var(--wp--preset--color--secondary-one) !important;
+    cursor: pointer;
+}
+.product-rating{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.blog-group{
+    margin-top: 50px !important;
+}
+textarea,input.wpcf7-form-control{
+    width: 93%;
+}
+.header-menu ul li a{
+    color: var(--wp--preset--color--accent-text) !important;
+}
+.wp-block-navigation .wp-block-navigation__submenu-icon:focus{
+    outline-color: #ffffff;
+}
+.wp-block-navigation .wp-block-navigation__submenu-icon{
+    color: #ffffff;
+}
+.header-menu ul li ul.wp-block-navigation-submenu li a{
+    color: var(--wp--preset--color--tertiary) !important;
+}
+.header-menu ul li:hover a span
+.header-menu ul li ul.wp-block-navigation-submenu li a{
+    background: var(--wp--preset--color--accent-text) !important;
+    color: var(--wp--preset--color--secaccent) !important;
+}
+.main-header-top .wp-block-social-link a:hover{
+    color: var(--wp--preset--color--secondary-accent) !important;
+    fill: var(--wp--preset--color--secondary-accent) !important;
+}
+.wp-block-search.wp-block-search__button-only .wp-block-search__input{
+	position: absolute;;
+	right: 75px;
+	padding:13px;
+}
+form.wp-block-search__button-only.wp-block-search__icon-button.wp-block-search{
+	position: relative;
+    margin: 0px !important;
+}
+.main-header-top{
+	position: relative;
+}
+.home .main-header-top {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.wp-block-post-featured-image :where(img) {
+    height: 400px;
+}
+.wp-block-search.wp-block-search__button-only .wp-block-search__button{
+    padding: 10px;
+}
+.header-inner .header-btn a:focus{
+    color: var(--wp--preset--color--primary) !important;
+}
+.wp-block-search.wp-block-search__button-only .wp-block-search__input {
+    right: 17px;
+}
+.blog-image,.blog-image img{
+	width: 100%;
+	object-fit: cover;
+}
+.countor-box h4 span{
+    color: var(--wp--preset--color--accent) !important;
+}
+input#submit,
+.wc-block-grid__product-add-to-cart.wp-block-button .wp-block-button__link,
+a.wc-block-components-button.wp-element-button.wc-block-cart__submit-button.contained,
+button.wc-block-components-button.wp-element-button.wc-block-components-totals-coupon__button.contained,
+.wp-block-woocommerce-checkout-actions-block .wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button,
+button.wp-block-search__button.has-border-color.has-outline-border-color.wp-element-button,
+.wp-block-button.wc-block-components-product-button .wc-block-components-product-button__button{
+    background-color: var(--wp--preset--color--primary) !important;
+}
+.blog-image .wp-block-post-date time::first-line {
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  display: block !important;
+}
+.header-menu ul li a:hover {
+    color: var(--wp--preset--color--secondary-accent-text) !important;
+	fill: var(--wp--preset--color--secondary-accent-text) !important;
+    text-decoration: underline;
+}
+.header-menu ul li a{
+	padding: 10px 17px !important;
+    position: relative;
+}
+.header-menu ul li ul.wp-block-navigation-submenu li a:hover{
+    color: var(--wp--preset--color--secondary-one) !important;
+    background: transparent !important;
+    border-radius: 0px;
+}
+.wp-block-categories-dropdown.wp-block-categories {
+    position: relative;
+    text-align: right;
+}
+.wp-block-categories-dropdown.wp-block-categories:after {
+    content: "\f333";
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 36px;
+    font-size: 22px;
+    color: #fff;
+    font-family: "dashicons";
+    height: 100%;
+    background-color: var(--wp--preset--color--primary) !important;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+select#wp-block-categories-1 {
+    background-color: var(--wp--preset--color--primary) !important;
+    color: var(--wp--preset--color--accent-text) !important;
+    border: 0px;
+    width: 100%;
+    padding: 13px 20px 13px 40px !important;
+    border-radius: 8px !important;
+}
+.header-meta svg.icon {
+    width: 25px;
+}
+.header-menu ul li ul.wp-block-navigation-submenu li a:after{
+    display: none;
+}
+.wp-block-button__link{
+    height: auto;
+}
+.wc-block-mini-cart.wp-block-woocommerce-mini-cart .wc-block-mini-cart__quantity-badge svg:hover{
+	fill: var(--wp--preset--color--secondary) !important;
+}
+.wc-block-components-product-sale-badge.wc-block-components-product-sale-badge--align-right.wc-block-grid__product-onsale span{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--wp--preset--color--accent-text) !important;
+}
+button.single_add_to_cart_button.button.alt.wp-element-button{
+    background-color: var(--wp--preset--color--primary) !important;
+}
+.wc-block-components-product-sale-badge.wc-block-components-product-sale-badge--align-right.wc-block-grid__product-onsale{
+    background-color: var(--wp--preset--color--primary) !important;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 12px;
+    border: 0px !important;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 0px;
+    padding-top: 3px;
+    padding-right: var(--wp--preset--spacing--x-small);
+    padding-bottom: 3px;
+    padding-left: var(--wp--preset--spacing--x-small);
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.footer-contact span{
+    fill: var(--wp--preset--color--primary) !important;
+}
+.footer-main a.wp-block-social-link-anchor:hover, .footer-main ul li a:hover svg {
+    color: var(--wp--preset--color--pure-black) !important;
+    fill: var(--wp--preset--color--pure-black)  !important;
+}
+.main-header{
+    position: relative;
+}
+.products-block-post-template .wp-block-woocommerce-product-button .added_to_cart.wc_forward{
+    background-color: var(--wp--preset--color--primary);
+    color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    text-decoration: none;
+}
+.single-product .wp-block-add-to-cart-form .quantity .input-text.qty{
+	height: 42px;
+}
+
+/* Header Section */
+
+.header-section .header-btn a{
+  border-color: var(--wp--preset--color--tertiary);
+}
+.home .header-section .header-btn a:hover,
+.section-btn a:hover {
+  background-color: var(--wp--preset--color--primary) !important;
+  color: #ffffff !important;
+}
+
+.header-section .header-btn a:hover{
+    color: var(--wp--preset--color--primary) !important;
+    background-color: var(--wp--preset--color--primary) !important;
+}
+
+/* Banner Section */
+.banner-section .banner-content {
+  position: relative;
+  z-index: 2;
+}
+.banner-section .banner-content-box {
+    position: relative;
+    aspect-ratio: 1;
+    width: 440px;
+    margin-top: 25px;
+    z-index: 1;
+    margin: auto;
+}
+.banner-section .banner-content-box::after,
+.banner-section .banner-outer-box::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: rotate(-45deg);
+    z-index: -1;
+    border-top: 3px solid #ffffff;
+    border-left: 3px solid #ffffff;
+    height: 90%;
+    width: 90%;
+    top: 50%;
+    left: -40px;
+    transform: translateY(-50%) rotate(-45deg);
+}
+.banner-section .banner-outer-box {
+    position: relative;
+    width: 440px;
+    margin-top: 74px;
+}
+.banner-section .banner-outer-box::after {
+    right: -40px;
+    left: unset;
+            border-bottom: 3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+        border-top: 0px;
+    border-left: 0px;
+}
+.banner-section .banner-content-box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--wp--preset--color--secondary);
+    transform: rotate(45deg);
+    z-index: -1;
+    border: 3px solid var(--wp--preset--color--tertiary);
+    opacity: 0.8;
+}
+.banner-section .banner-content {
+    z-index: 4;
+}
+.banner-section .banner-divide {
+  justify-content: center;
+}
+
+/* Planner Section */
+
+.planner-section,
+.who-section {
+    position: relative;
+}
+.testimonial-box i {
+    color: var(--wp--preset--color--primary) !important;
+    top: -44px;
+    font-size: 60px;
+    position: absolute;
+    left: 35px;
+}
+.testimonial-content {
+    position: relative;
+}
+/*.planner-section::before,
+.who-section::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 89%;
+    height: 100%;
+    clip-path: polygon( 0.314% 5.984%,0.314% 5.984%,0.14% 5.254%,0.037% 4.472%,0% 3.67%,0.025% 2.877%,0.106% 2.124%,0.239% 1.439%,0.42% 0.855%,0.643% 0.4%,0.905% 0.105%,1.201% 0%,99.995% 0%,99.995% 100%,51.161% 100%,51.161% 100%,50.833% 99.987%,49.9% 99.895%,48.441% 99.646%,46.536% 99.16%,44.262% 98.36%,41.699% 97.166%,38.925% 95.499%,36.02% 93.282%,33.061% 90.435%,30.128% 86.879%,30.128% 86.879%,27.426% 82.356%,24.364% 75.845%,21.054% 67.794%,17.606% 58.652%,14.134% 48.867%,10.749% 38.887%,7.563% 29.16%,4.687% 20.135%,2.234% 12.26%,0.314% 5.984% );
+    opacity: 0.15;
+    background-color: var(--wp--preset--color--primary);
+    z-index: 1;
+}*/
+.planner-section .planner-info{
+    z-index: 2;
+    /* position: relative;
+    right: 0; */
+}
+.planner-section .planner-img {
+    position: relative;
+    z-index: 2;
+}
+.planner-section .column-1 {
+    position: relative;
+    bottom: 10px;
+}
+.planner-section .img-border {
+    position: relative;
+    border-radius: 15px;
+    padding: 1px; 
+    background: linear-gradient(
+        180deg,
+        rgba(23, 164, 210, 0) 50%,
+        #17A4D2 100%
+    );
+    width: fit-content;
+}
+.planner-section .img-border img {
+    display: block;
+    width: 100%;
+    border-radius: 15px;
+}
+.planner-section .planner-para {
+    opacity: 0.5;
+}
+.planner-section .planner-divider,
+.who-section  .who-divider {
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Who Section */
+
+.who-section::before {
+    clip-path: polygon( 0% 0%,100% 0%,77.807% 68.723%,77.807% 68.723%,77.567% 69.244%,76.88% 70.686%,75.794% 72.868%,74.359% 75.612%,72.622% 78.736%,70.632% 82.059%,68.439% 85.402%,66.09% 88.584%,63.635% 91.425%,61.121% 93.745%,61.121% 93.745%,58.517% 95.44%,55.549% 96.797%,52.367% 97.854%,49.121% 98.649%,45.963% 99.218%,43.041% 99.6%,40.507% 99.831%,38.511% 99.95%,37.203% 99.994%,36.734% 100%,0% 100%,0% 0% );
+    right: unset;
+    left: 0;
+    z-index: 1;
+}
+.who-section .who-divider {
+    position: relative;
+    z-index: 2;
+    justify-content: space-between !important;
+}
+.who-section .who-card {
+    width: fit-content;
+    gap: 20px;
+}
+/*.who-section .card-border {
+    position: relative;
+    padding: 1px;
+    background: linear-gradient(180deg, rgba(61, 54, 94, 0) 50%, #3D365E 100%);
+    width: fit-content;
+    border-radius: 30px;
+}
+*/
+.card-border i{
+    font-size: 35px;
+    color: var(--wp--preset--color--primary) !important;
+}
+.card-border.other-box i {
+    color: var(--wp--preset--color--accent-text) !important;
+}
+.banner-image img{
+    height: 500px;
+}
+.adds-banner{
+    position: relative;
+    overflow: hidden;
+}
+.adds-banner::before {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 27%;
+    bottom: -41%;
+    transform: translateY(-50%);
+    background: radial-gradient(circle, #00A9F2 8.14%, #0089F8 60.72%, #004087 89.15%);
+    filter: blur(80px);
+    opacity: 1;
+    z-index: 1;
+}
+
+.adds-banner::after {
+    content: "";
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    right: 27%;
+    bottom: -41%;
+    transform: translateY(-50%);
+    background: radial-gradient(circle, #25FFD3 8.14%, #0089F8 77.44%, #004087 89.15%);
+    filter: blur(80px);
+    opacity: 1;
+    z-index: 1;
+}
+.banner-add-box {
+    position: absolute;
+    bottom: 18%;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+}
+.banner-icon {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-icon i{
+    font-size: 45px;
+    color: var(--wp--preset--color--primary) !important;
+}
+/* Blog Section */
+
+.blog-section i {
+    color: #3D365E;
+}
+.blog-section .post-date {
+    gap: 7px;
+}
+.blog-section p {
+    display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+}
+.blog-section .post-date-image {
+    width: 24px;
+    height: 24px;
+}
+.blog-section .wp-block-post-date {
+    width: fit-content;
+}
+
+/* Footer Section */
+
+.footer-section a:hover,
+.footer-right p a:hover {
+    color: var(--wp--preset--color--primary) !important;
+}
+.footer-contact p a {
+    text-decoration: none;
+}
+
+/* Custom Premium Styling for Professional Skills Section */
+.professional-skills-section {
+    position: relative;
+    background: #030805 !important; /* Ensure a sleek dark theme background */
+}
+
+.professional-skills-section .wp-block-columns,
+.professional-skills-section h2,
+.professional-skills-section p {
+    position: relative;
+    z-index: 5; /* Ensure content is on top of background glows */
+}
+
+.skill-gauge-card {
+    background: rgba(25, 30, 40, 0.65) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    backdrop-filter: blur(20px) saturate(130%) !important;
+    -webkit-backdrop-filter: blur(20px) saturate(130%) !important;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.08), 0 12px 30px rgba(0, 0, 0, 0.5) !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.skill-gauge-card:hover {
+    transform: translateY(-8px);
+    background: rgba(25, 30, 40, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+    box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.15), 0 20px 40px rgba(0, 0, 0, 0.7) !important;
+}
+
+/* Ensure progress rings are visible and bright */
+.skill-gauge-card svg circle {
+    stroke-width: 7px; /* Make the rings slightly thicker and bolder */
+}
+
+/* Let's style the text to be crisp and clean */
+.skill-gauge-card span {
+    font-family: 'Outfit', sans-serif !important;
+    transition: color 0.3s ease;
+}
+
+.skill-gauge-card:hover span {
+    color: #ffffff !important;
+}
+
+/* Premium Styling for Contact Form Submit Button */
+.contact-submit-btn {
+    background: #0077FC !important;
+    box-shadow: 0 4px 15px rgba(0, 119, 252, 0.3) !important;
+    font-family: 'Outfit', sans-serif !important;
+    border: none !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.contact-submit-btn:hover {
+    background: #005ec9 !important;
+    transform: translateY(-2px) scale(1.03) !important;
+    box-shadow: 0 6px 20px rgba(0, 119, 252, 0.5) !important;
+}
+
+/*------ Custom Glassmorphic Toast Notifications ------*/
+.toast-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 999999;
+    pointer-events: none;
+}
+
+.toast {
+    pointer-events: auto;
+    min-width: 280px;
+    max-width: 380px;
+    padding: 16px 20px;
+    border-radius: 16px;
+    background: rgba(4, 10, 7, 0.95) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    backdrop-filter: blur(20px) !important;
+    -webkit-backdrop-filter: blur(20px) !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5) !important;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    animation: toastSlideIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.toast.hide {
+    transform: translateX(100px);
+    opacity: 0;
+}
+
+.toast-icon {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+}
+
+.toast.success .toast-icon {
+    color: #0077FC !important;
+}
+
+.toast.error .toast-icon {
+    color: #ef4444 !important;
+}
+
+.toast-message {
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #ffffff !important;
+}
+
+@keyframes toastSlideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+    .toast-container {
+        bottom: 20px;
+        right: 5%;
+        left: 5%;
+        width: 90%;
+        align-items: center;
+    }
+    .toast {
+        width: 100%;
+        min-width: unset;
+    }
+}

@@ -1,0 +1,1041 @@
+# Copyright (C) 2026 misbahwp
+# This file is distributed under the GPLv3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Minimalistic Portfolio 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/minimalistic-portfolio\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-04-22T10:43:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: minimalistic-portfolio\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Minimalistic Portfolio"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.misbahwp.com/products/minimalistic-portfolio"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Minimalistic Portfolio is a clean and modern WordPress theme designed for creatives, freelancers, and agencies who want to showcase their work with clarity and style. Built with a minimal approach, it focuses on strong typography, spacious layouts, and smooth user experience to highlight your portfolio effectively. The theme includes well-structured sections such as a bold hero banner, services overview, featured projects, key features, testimonials, and a call-to-action section. It also supports portfolio showcases, team introductions, and blog integration for content sharing. With responsive design, fast loading performance, and easy customization options, you can quickly create a professional website without coding knowledge. Minimalistic Portfolio is perfect for designers, developers, photographers, and startups looking to build a strong online presence with a sleek and elegant layout."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "misbahwp"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.misbahwp.com/"
+msgstr ""
+
+#: inc/core/block-patterns.php:17
+msgid "Minimalistic Portfolio Patterns"
+msgstr ""
+
+#: inc/core/block-patterns.php:18
+msgid "Product"
+msgstr ""
+
+#: inc/core/block-styles.php:25
+#: inc/core/block-styles.php:33
+#: inc/core/block-styles.php:55
+#: inc/core/block-styles.php:76
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/core/block-styles.php:40
+#: inc/core/block-styles.php:62
+#: inc/core/block-styles.php:83
+msgid "Box Shadow Medium"
+msgstr ""
+
+#: inc/core/block-styles.php:47
+#: inc/core/block-styles.php:90
+msgid "Box Shadow Large"
+msgstr ""
+
+#: inc/core/block-styles.php:69
+msgid "Box Shadow Larger"
+msgstr ""
+
+#: inc/core/block-styles.php:97
+#: inc/core/block-styles.php:104
+#: inc/core/block-styles.php:112
+#: inc/core/block-styles.php:120
+msgid "Box Shadow on Hover"
+msgstr ""
+
+#: inc/core/block-styles.php:129
+msgid "Secondary"
+msgstr ""
+
+#: patterns/adds.php
+msgctxt "Pattern title"
+msgid "Adds"
+msgstr ""
+
+#: patterns/adds.php:20
+msgid "Introducing the Wardiere"
+msgstr ""
+
+#: patterns/adds.php:20
+msgid "Platform"
+msgstr ""
+
+#: patterns/adds.php:39
+msgid "Wardiere Platform"
+msgstr ""
+
+#: patterns/adds.php:43
+msgid "Wardiere is a unified, AI-enhanced productivity hub that connects your teams, automates"
+msgstr ""
+
+#: patterns/adds.php:43
+msgid "workflows, and brings darity to every aspect of your operations. Designed for scalability"
+msgstr ""
+
+#: patterns/adds.php:43
+msgid "and simplicity, it evolves as your business grows."
+msgstr ""
+
+#: patterns/banner-ads.php
+msgctxt "Pattern title"
+msgid "Banner Ads"
+msgstr ""
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr ""
+
+#: patterns/banner.php:19
+msgid "Welcome to Wardiere Inc."
+msgstr ""
+
+#: patterns/banner.php:23
+msgid "Pitch Deck"
+msgstr ""
+
+#: patterns/banner.php:27
+msgid "Presented by"
+msgstr ""
+
+#: patterns/banner.php:31
+msgid "Adeline Palmerston"
+msgstr ""
+
+#: patterns/banner.php:40
+msgid "Date"
+msgstr ""
+
+#: patterns/banner.php:44
+msgid "22 December 2030"
+msgstr ""
+
+#: patterns/banner.php:52
+msgid "Web Site"
+msgstr ""
+
+#: patterns/banner.php:56
+#: patterns/footer.php:59
+msgid "www.example.com"
+msgstr ""
+
+#: patterns/banner.php:64
+msgid "E-mail"
+msgstr ""
+
+#: patterns/banner.php:68
+msgid "hello@example.com"
+msgstr ""
+
+#: patterns/features.php
+msgctxt "Pattern title"
+msgid "Features"
+msgstr ""
+
+#: patterns/features.php:15
+msgid "Key"
+msgstr ""
+
+#: patterns/features.php:15
+#: patterns/footer.php:151
+msgid "Features"
+msgstr ""
+
+#: patterns/features.php:19
+msgid "Our platform is packed with powerful features"
+msgstr ""
+
+#: patterns/features.php:19
+msgid "designed to streamline your workflow, enhance"
+msgstr ""
+
+#: patterns/features.php:19
+msgid "user engagement, and scale with your business."
+msgstr ""
+
+#: patterns/features.php:19
+msgid "Each feature is built with simplicity, speed, and"
+msgstr ""
+
+#: patterns/features.php:19
+msgid "impact in mind."
+msgstr ""
+
+#: patterns/features.php:35
+#: patterns/features.php:55
+#: patterns/features.php:77
+#: patterns/features.php:97
+msgid "Seamless Collaboration"
+msgstr ""
+
+#: patterns/features.php:39
+#: patterns/features.php:59
+#: patterns/features.php:81
+#: patterns/features.php:101
+msgid "Real-time editing, comments, and task updates across departments. Real-time editing, comments, and task updates across departments."
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/footer.php:33
+msgid "Call Us"
+msgstr ""
+
+#: patterns/footer.php:37
+msgid "(+11)1234567890"
+msgstr ""
+
+#: patterns/footer.php:55
+msgid "Website"
+msgstr ""
+
+#: patterns/footer.php:77
+msgid "Address"
+msgstr ""
+
+#: patterns/footer.php:81
+msgid "101 E 129th St, East Chicago"
+msgstr ""
+
+#: patterns/footer.php:99
+msgid "Email"
+msgstr ""
+
+#: patterns/footer.php:103
+msgid "portfolio@example.com"
+msgstr ""
+
+#: patterns/footer.php:117
+msgid "It is a long-established fact that the"
+msgstr ""
+
+#: patterns/footer.php:117
+msgid "reader will be distracted by the"
+msgstr ""
+
+#: patterns/footer.php:117
+msgid "readable content of a page, wp-block-heading"
+msgstr ""
+
+#: patterns/footer.php:117
+msgid "looking at its layout"
+msgstr ""
+
+#: patterns/footer.php:135
+msgid "Our Services"
+msgstr ""
+
+#: patterns/footer.php:139
+msgid "Home"
+msgstr ""
+
+#: patterns/footer.php:143
+#: patterns/footer.php:161
+#: patterns/header.php:32
+msgid "About Us"
+msgstr ""
+
+#: patterns/footer.php:147
+msgid "Services"
+msgstr ""
+
+#: patterns/footer.php:157
+msgid "Help"
+msgstr ""
+
+#: patterns/footer.php:165
+msgid "Contact Us"
+msgstr ""
+
+#: patterns/footer.php:169
+msgid "Cart"
+msgstr ""
+
+#: patterns/footer.php:173
+msgid "Shipping Policy"
+msgstr ""
+
+#: patterns/footer.php:179
+msgid "Important Links"
+msgstr ""
+
+#: patterns/footer.php:183
+msgid "privacy policy"
+msgstr ""
+
+#: patterns/footer.php:187
+msgid "terms and conditions"
+msgstr ""
+
+#: patterns/footer.php:191
+msgid "Faqs"
+msgstr ""
+
+#: patterns/footer.php:195
+msgid "Contact"
+msgstr ""
+
+#: patterns/footer.php:207
+msgid "Minimalistic Portfolio Theme By"
+msgstr ""
+
+#: patterns/footer.php:207
+msgid "Misbah WP"
+msgstr ""
+
+#: patterns/footer.php:213
+msgid "· All rights reserved"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/primary-sidebar.php
+msgctxt "Pattern title"
+msgid "Primary Sidebar"
+msgstr ""
+
+#: patterns/primary-sidebar.php:16
+msgid "Archive"
+msgstr ""
+
+#: patterns/primary-sidebar.php:24
+msgid "Categories"
+msgstr ""
+
+#: patterns/primary-sidebar.php:32
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/primary-sidebar.php:40
+msgid "Tags"
+msgstr ""
+
+#: patterns/primary-sidebar.php:48
+msgid "Social Links"
+msgstr ""
+
+#: patterns/services.php
+msgctxt "Pattern title"
+msgid "Services"
+msgstr ""
+
+#: patterns/services.php:15
+msgid "What's Broken in Today's Market"
+msgstr ""
+
+#: patterns/services.php:24
+msgid "01."
+msgstr ""
+
+#: patterns/services.php:28
+msgid "Lack of Strategic"
+msgstr ""
+
+#: patterns/services.php:28
+msgid "Alignment"
+msgstr ""
+
+#: patterns/services.php:32
+#: patterns/services.php:48
+#: patterns/services.php:64
+msgid "Manual tracking and redundant workflows"
+msgstr ""
+
+#: patterns/services.php:32
+#: patterns/services.php:48
+#: patterns/services.php:64
+msgid "reduce productivity and delay the project"
+msgstr ""
+
+#: patterns/services.php:32
+#: patterns/services.php:48
+#: patterns/services.php:64
+msgid "execution."
+msgstr ""
+
+#: patterns/services.php:40
+msgid "02."
+msgstr ""
+
+#: patterns/services.php:44
+#: patterns/services.php:60
+msgid "Inefficient Task"
+msgstr ""
+
+#: patterns/services.php:44
+#: patterns/services.php:60
+msgid "Management"
+msgstr ""
+
+#: patterns/services.php:56
+msgid "03."
+msgstr ""
+
+#: patterns/sidebar-shop.php
+msgctxt "Pattern title"
+msgid "Sidebar Shop"
+msgstr ""
+
+#: patterns/sidebar-shop.php:12
+msgid "Product Search"
+msgstr ""
+
+#: patterns/sidebar-shop.php:20
+msgid "Product Categories"
+msgstr ""
+
+#: patterns/sidebar-shop.php:29
+msgid "Filter by price"
+msgstr ""
+
+#: patterns/sidebar-shop.php:40
+msgid "Recent Products"
+msgstr ""
+
+#: patterns/solution.php
+msgctxt "Pattern title"
+msgid "Solution"
+msgstr ""
+
+#: patterns/solution.php:19
+msgid "Our Solution, Reimagined"
+msgstr ""
+
+#: patterns/solution.php:32
+#: patterns/solution.php:48
+#: patterns/solution.php:64
+msgid "Centralized Workspace"
+msgstr ""
+
+#: patterns/solution.php:36
+#: patterns/solution.php:52
+#: patterns/solution.php:68
+msgid "All-in-one platform to manage"
+msgstr ""
+
+#: patterns/solution.php:36
+#: patterns/solution.php:52
+#: patterns/solution.php:68
+msgid "communication, tasks, and collaboration"
+msgstr ""
+
+#: patterns/solution.php:36
+#: patterns/solution.php:52
+#: patterns/solution.php:68
+msgid "with full visibility. All-in-one platform to manage"
+msgstr ""
+
+#: patterns/solution.php:36
+#: patterns/solution.php:52
+#: patterns/solution.php:68
+msgid "with full visibility."
+msgstr ""
+
+#: patterns/template-404.php
+msgctxt "Pattern title"
+msgid "Template 404"
+msgstr ""
+
+#: patterns/template-404.php:24
+msgid "404"
+msgstr ""
+
+#: patterns/template-404.php:28
+msgid "This page could not be found. Maybe try a search?"
+msgstr ""
+
+#: patterns/template-archive-grid-layout.php
+msgctxt "Pattern title"
+msgid "Template Archive Grid Layout"
+msgstr ""
+
+#: patterns/template-archive-grid-layout.php:24
+msgid "Archive Grid Layout"
+msgstr ""
+
+#: patterns/template-archive-left-sidebar.php
+msgctxt "Pattern title"
+msgid "Template Archive Left Sidebar"
+msgstr ""
+
+#: patterns/template-archive-product.php
+msgctxt "Pattern title"
+msgid "Template Archive Product"
+msgstr ""
+
+#: patterns/template-archive.php
+msgctxt "Pattern title"
+msgid "Template Archive"
+msgstr ""
+
+#: patterns/template-blog-listing.php
+msgctxt "Pattern title"
+msgid "Template Blog Listing"
+msgstr ""
+
+#: patterns/template-cart.php
+msgctxt "Pattern title"
+msgid "Template Cart"
+msgstr ""
+
+#: patterns/template-cart.php:27
+#: patterns/template-cart.php:92
+#: patterns/template-cart.php:157
+msgid "You may be interested in…"
+msgstr ""
+
+#: patterns/template-cart.php:215
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: patterns/template-cart.php:219
+msgid "Browse store"
+msgstr ""
+
+#: patterns/template-checkout.php
+msgctxt "Pattern title"
+msgid "Template Checkout"
+msgstr ""
+
+#: patterns/template-full-width.php
+msgctxt "Pattern title"
+msgid "Template Full Width"
+msgstr ""
+
+#: patterns/template-index.php
+msgctxt "Pattern title"
+msgid "Template Index"
+msgstr ""
+
+#: patterns/template-index.php:16
+msgid "Our Blog"
+msgstr ""
+
+#: patterns/template-order-confirmation.php
+msgctxt "Pattern title"
+msgid "Template Order Confirmation"
+msgstr ""
+
+#: patterns/template-page-left-sidebar.php
+#: patterns/template-page-right-sidebar.php
+#: patterns/template-page.php
+msgctxt "Pattern title"
+msgid "Template Page"
+msgstr ""
+
+#: patterns/template-page-no-gap.php
+msgctxt "Pattern title"
+msgid "Template Page No Gap"
+msgstr ""
+
+#: patterns/template-page-no-title.php
+msgctxt "Pattern title"
+msgid "Template Page No Title"
+msgstr ""
+
+#: patterns/template-product-search-results.php
+msgctxt "Pattern title"
+msgid "Template Product Search Results"
+msgstr ""
+
+#: patterns/template-product-search-results.php:53
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: patterns/template-search.php
+msgctxt "Pattern title"
+msgid "Template Search"
+msgstr ""
+
+#: patterns/template-search.php:51
+msgid "Sorry, but nothing matched your search terms. Try another search?"
+msgstr ""
+
+#: patterns/template-single-post-left-sidebar.php
+#: patterns/template-single-post-right-sidebar.php
+#: patterns/template-single.php
+msgctxt "Pattern title"
+msgid "Template Single"
+msgstr ""
+
+#: patterns/template-single-product.php
+msgctxt "Pattern title"
+msgid "Template Single Product"
+msgstr ""
+
+#: patterns/template-single-product.php:17
+msgid "Single Product"
+msgstr ""
+
+#: patterns/template-single-product.php:63
+msgid "Related products"
+msgstr ""
+
+#: patterns/testimonial.php
+msgctxt "Pattern title"
+msgid "Testimonial"
+msgstr ""
+
+#: patterns/testimonial.php:21
+msgid "What Early Users Are Saying"
+msgstr ""
+
+#: patterns/testimonial.php:39
+#: patterns/testimonial.php:65
+#: patterns/testimonial.php:91
+msgid "Salford And Co. helped us cut onboarding"
+msgstr ""
+
+#: patterns/testimonial.php:39
+#: patterns/testimonial.php:65
+#: patterns/testimonial.php:91
+msgid "time in half. It's intuitive, fast, and scalable"
+msgstr ""
+
+#: patterns/testimonial.php:39
+#: patterns/testimonial.php:65
+#: patterns/testimonial.php:91
+msgid "-just what we needed."
+msgstr ""
+
+#: patterns/testimonial.php:43
+#: patterns/testimonial.php:69
+#: patterns/testimonial.php:95
+msgid "Daniel Gallego"
+msgstr ""
+
+#: patterns/testimonial.php:47
+#: patterns/testimonial.php:73
+#: patterns/testimonial.php:99
+msgid "Rimberio - Head of Marketing"
+msgstr ""
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Accent Text"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary One"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Accent Text"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Accent"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Hover"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Heading"
+msgstr ""
+
+#: styles/blue.json
+#: styles/gold.json
+#: styles/green.json
+#: styles/orange.json
+#: styles/purple.json
+#: styles/warm.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary Two"
+msgstr ""
+
+#: styles/gold.json
+msgctxt "Style variation name"
+msgid "Gold"
+msgstr ""
+
+#: styles/green.json
+msgctxt "Style variation name"
+msgid "Green"
+msgstr ""
+
+#: styles/orange.json
+msgctxt "Style variation name"
+msgid "Orange"
+msgstr ""
+
+#: styles/purple.json
+msgctxt "Style variation name"
+msgid "Purple"
+msgstr ""
+
+#: styles/warm.json
+msgctxt "Style variation name"
+msgid "Warm"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Full width"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blog Listing"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Gap)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Title / Feature Image)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Product"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Cart"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Checkout"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Order Confirmation"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Archive Product"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Home)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Minimal)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer (Minimal Left Menu)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer (Minimal Center Menu)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer (Minimal Right Menu)"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Comments"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Primary Gradient"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Secondary Gradient"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Secondary"
+msgstr ""
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Light"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Public Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Montserrat"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Koulen"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Righteous"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Open Sans"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Poppins"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Yantramanav"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "XXXX Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Space size name"
+msgid "XX Large"
+msgstr ""
