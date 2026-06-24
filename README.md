@@ -19,21 +19,6 @@ Check out the live working preview hosted on GitHub Pages:
 
 ---
 
-##  How to Install and Run the Theme
-
-1. **Download the Theme**:
-   Download this repository as a ZIP file by clicking on the green **Code** button and selecting **Download ZIP**.
-2. **Install on WordPress**:
-   * Go to WordPress Dashboard (`Appearance` -> `Themes`).
-   * Click **Add New Theme** -> **Upload Theme**.
-   * Choose the downloaded ZIP file and click **Install Now**.
-3. **Activate**:
-   * Once installed, click **Activate** to apply the theme to your site.
-4. **Site Editor**:
-   * As a block theme, can customize all templates and parts by going to `Appearance` -> `Editor`.
-
----
-
 ## Static Site Export & Deployment Pipeline
 
 This repository includes a custom built static exporter to make running a WordPress theme on GitHub Pages possible.
