@@ -16,3 +16,7 @@ Thumbs.db
 # Agent files
 .agents/
 .codex/
+
+# Exported static files
+dist/
+
