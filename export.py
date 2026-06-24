@@ -192,6 +192,11 @@ def crawl():
             file_path = os.path.join(root, file)
             rewrite_file_urls(file_path)
             
+    # Write .nojekyll file to disable Jekyll processing
+    with open(os.path.join(DIST_DIR, ".nojekyll"), "w") as f:
+        pass
+    print("Added .nojekyll file to dist")
+            
     print("Static site generation completed!")
 
 if __name__ == "__main__":
