@@ -44,6 +44,6 @@ This repository includes a custom built static exporter to make running a WordPr
 
 ---
 
-## 🎨 Theme Details
+## Theme Details
 * **Technology**: WordPress Block Theme (Full Site Editing compatible)
 * **Customization**: Supports block patterns, global styles (includes multiple color presets in `styles/` folder), and theme.json customization.
